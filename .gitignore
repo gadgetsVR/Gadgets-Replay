@@ -73,3 +73,683 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+Assets/DynamicBone.meta
+Assets/DynamicBone/Demo.meta
+Assets/DynamicBone/Demo/c1.fbx
+Assets/DynamicBone/Demo/c1.fbx.meta
+Assets/DynamicBone/Demo/Demo1.unity
+Assets/DynamicBone/Demo/Demo1.unity.meta
+Assets/DynamicBone/Demo/Demo1Settings.lighting
+Assets/DynamicBone/Demo/Demo1Settings.lighting.meta
+Assets/DynamicBone/Demo/DynamicBoneDemo1.cs
+Assets/DynamicBone/Demo/DynamicBoneDemo1.cs.meta
+Assets/DynamicBone/Demo/tail.FBX
+Assets/DynamicBone/Demo/tail.FBX.meta
+Assets/DynamicBone/ReadMe.txt
+Assets/DynamicBone/ReadMe.txt.meta
+Assets/DynamicBone/Scripts.meta
+Assets/DynamicBone/Scripts/DynamicBone.cs
+Assets/DynamicBone/Scripts/DynamicBone.cs.meta
+Assets/DynamicBone/Scripts/DynamicBoneCollider.cs
+Assets/DynamicBone/Scripts/DynamicBoneCollider.cs.meta
+Assets/DynamicBone/Scripts/DynamicBoneColliderBase.cs
+Assets/DynamicBone/Scripts/DynamicBoneColliderBase.cs.meta
+Assets/DynamicBone/Scripts/DynamicBonePlaneCollider.cs
+Assets/DynamicBone/Scripts/DynamicBonePlaneCollider.cs.meta
+Assets/eToile.meta
+Assets/eToile/ExampleShared.meta
+Assets/eToile/ExampleShared/Anim.meta
+Assets/eToile/ExampleShared/Anim/ExampleUI.meta
+Assets/eToile/ExampleShared/Anim/ExampleUI/Blink.anim
+Assets/eToile/ExampleShared/Anim/ExampleUI/Blink.anim.meta
+Assets/eToile/ExampleShared/Anim/ExampleUI/Foot.controller
+Assets/eToile/ExampleShared/Anim/ExampleUI/Foot.controller.meta
+Assets/eToile/ExampleShared/HelperScripts.meta
+Assets/eToile/ExampleShared/HelperScripts/DragSensitivity.cs
+Assets/eToile/ExampleShared/HelperScripts/DragSensitivity.cs.meta
+Assets/eToile/ExampleShared/HelperScripts/DragSnapper.cs
+Assets/eToile/ExampleShared/HelperScripts/DragSnapper.cs.meta
+Assets/eToile/ExampleShared/HelperScripts/ExitApp.cs
+Assets/eToile/ExampleShared/HelperScripts/ExitApp.cs.meta
+Assets/eToile/ExampleShared/HelperScripts/GoToAssetStore.cs
+Assets/eToile/ExampleShared/HelperScripts/GoToAssetStore.cs.meta
+Assets/eToile/ExampleShared/HelperScripts/SendEmail.cs
+Assets/eToile/ExampleShared/HelperScripts/SendEmail.cs.meta
+Assets/eToile/ExampleShared/PopUp.meta
+Assets/eToile/ExampleShared/PopUp/Anim.meta
+Assets/eToile/ExampleShared/PopUp/Anim/FadeIn.anim
+Assets/eToile/ExampleShared/PopUp/Anim/FadeIn.anim.meta
+Assets/eToile/ExampleShared/PopUp/Anim/FadeOut.anim
+Assets/eToile/ExampleShared/PopUp/Anim/FadeOut.anim.meta
+Assets/eToile/ExampleShared/PopUp/Anim/Idle.anim
+Assets/eToile/ExampleShared/PopUp/Anim/Idle.anim.meta
+Assets/eToile/ExampleShared/PopUp/Anim/PopUp.controller
+Assets/eToile/ExampleShared/PopUp/Anim/PopUp.controller.meta
+Assets/eToile/ExampleShared/PopUp/PopUp.cs
+Assets/eToile/ExampleShared/PopUp/PopUp.cs.meta
+Assets/eToile/ExampleShared/PopUp/PopUp.prefab
+Assets/eToile/ExampleShared/PopUp/PopUp.prefab.meta
+Assets/eToile/ExampleShared/readme.txt
+Assets/eToile/ExampleShared/readme.txt.meta
+Assets/eToile/ExampleShared/StreamingAssets.meta
+Assets/eToile/ExampleShared/StreamingAssets/ExtractMeToStreamingAssets.zip
+Assets/eToile/ExampleShared/StreamingAssets/ExtractMeToStreamingAssets.zip.meta
+Assets/eToile/ExampleShared/Textures.meta
+Assets/eToile/ExampleShared/Textures/Arrow.png
+Assets/eToile/ExampleShared/Textures/Arrow.png.meta
+Assets/eToile/ExampleShared/Textures/BackGround.png
+Assets/eToile/ExampleShared/Textures/BackGround.png.meta
+Assets/eToile/ExampleShared/Textures/BS.png
+Assets/eToile/ExampleShared/Textures/BS.png.meta
+Assets/eToile/ExampleShared/Textures/Button.png
+Assets/eToile/ExampleShared/Textures/Button.png.meta
+Assets/eToile/ExampleShared/Textures/Delete.png
+Assets/eToile/ExampleShared/Textures/Delete.png.meta
+Assets/eToile/ExampleShared/Textures/icono etoile.png
+Assets/eToile/ExampleShared/Textures/icono etoile.png.meta
+Assets/eToile/ExampleShared/Textures/OK.png
+Assets/eToile/ExampleShared/Textures/OK.png.meta
+Assets/eToile/ExampleShared/Textures/Pause.png
+Assets/eToile/ExampleShared/Textures/Pause.png.meta
+Assets/eToile/ExampleShared/Textures/Play.png
+Assets/eToile/ExampleShared/Textures/Play.png.meta
+Assets/eToile/ExampleShared/Textures/splash etoile.png
+Assets/eToile/ExampleShared/Textures/splash etoile.png.meta
+Assets/eToile/ExampleShared/Textures/Square.png
+Assets/eToile/ExampleShared/Textures/Square.png.meta
+Assets/eToile/ExampleShared/Textures/SquareTBorder.png
+Assets/eToile/ExampleShared/Textures/SquareTBorder.png.meta
+Assets/eToile/ExampleShared/Textures/Star.png
+Assets/eToile/ExampleShared/Textures/Star.png.meta
+Assets/eToile/ExampleShared/Textures/Stop.png
+Assets/eToile/ExampleShared/Textures/Stop.png.meta
+Assets/eToile/OpenWavParser.meta
+Assets/eToile/OpenWavParser/Example.meta
+Assets/eToile/OpenWavParser/Example/_OWP_TestScene.unity
+Assets/eToile/OpenWavParser/Example/_OWP_TestScene.unity.meta
+Assets/eToile/OpenWavParser/Example/Prefabs.meta
+Assets/eToile/OpenWavParser/Example/Prefabs/ExampleOWP.prefab
+Assets/eToile/OpenWavParser/Example/Prefabs/ExampleOWP.prefab.meta
+Assets/eToile/OpenWavParser/Example/Scripts.meta
+Assets/eToile/OpenWavParser/Example/Scripts/2_WAVSave.meta
+Assets/eToile/OpenWavParser/Example/Scripts/2_WAVSave/MicController.cs
+Assets/eToile/OpenWavParser/Example/Scripts/2_WAVSave/MicController.cs.meta
+Assets/eToile/OpenWavParser/Example/Scripts/2_WAVSave/SaveWavFile.cs
+Assets/eToile/OpenWavParser/Example/Scripts/2_WAVSave/SaveWavFile.cs.meta
+Assets/eToile/OpenWavParser/Example/Scripts/3_WAVRead.meta
+Assets/eToile/OpenWavParser/Example/Scripts/3_WAVRead/LoadWavFile.cs
+Assets/eToile/OpenWavParser/Example/Scripts/3_WAVRead/LoadWavFile.cs.meta
+Assets/eToile/OpenWavParser/Example/Textures.meta
+Assets/eToile/OpenWavParser/Example/Textures/AppIcon.png
+Assets/eToile/OpenWavParser/Example/Textures/AppIcon.png.meta
+Assets/eToile/OpenWavParser/Open WAV Parser documentation 1.4.pdf
+Assets/eToile/OpenWavParser/Open WAV Parser documentation 1.4.pdf.meta
+Assets/eToile/OpenWavParser/OpenWavParser.cs
+Assets/eToile/OpenWavParser/OpenWavParser.cs.meta
+Assets/eToile/OpenWavParser/readme please.txt
+Assets/eToile/OpenWavParser/readme please.txt.meta
+Assets/Models/3D Model Haven/Television_01.blend.meta
+Assets/Models/3D Model Haven/Television_01.blend1.meta
+Assets/Models/AI/AI.blend.meta
+Assets/Models/AI/AI.blend1.meta
+Assets/Models/Balloon Boy/Balloon Boy.blend.meta
+Assets/Models/Balloon Boy/Balloon Boy.blend1.meta
+Assets/Models/Bonnie FNaF1/Binnie FNaF1.blend.meta
+Assets/Models/Chica FNaF1/Chica FNaF1.blend.meta
+Assets/Models/Foxy FNaF1/Foxy FNaF1.blend.meta
+Assets/Models/Freddy FNaF1/Freddy FNaF1.blend.meta
+Assets/Models/Freddy FNaF1/Freddy FNaF1.blend1.meta
+Assets/Models/Materials/Textures/~BROMIUM.meta
+Assets/Models/Materials/Textures/~BROMIUM/Suit Fur Outer NRM.png.meta
+Assets/Models/Mr. Hugs/Mr. Hugs.blend.meta
+Assets/Models/Mr. Hugs/Mr. Hugs.blend1.meta
+Assets/Models/New Stage/New Stage.blend.meta
+Assets/Models/New Stage/New Stage.blend1.meta
+Assets/Models/Other/Allofthem.blend.meta
+Assets/Models/Other/Allofthem.blend1.meta
+Assets/Models/Other/anotherRender.blend.meta
+Assets/Models/Other/anotherRender.blend1.meta
+Assets/Models/Other/BingoScreen.blend.meta
+Assets/Models/Other/BingoScreen.blend1.meta
+Assets/Models/Other/Endo-01.blend.meta
+Assets/Models/Other/Endo-01.blend1.meta
+Assets/Models/Other/ffpplogo.blend.meta
+Assets/Models/Other/ffpplogo.blend1.meta
+Assets/Models/Other/FFRR Icon.blend.meta
+Assets/Models/Other/FFRR Icon.blend1.meta
+Assets/Models/Other/FoxyShip.blend.meta
+Assets/Models/Other/FoxyShip.blend1.meta
+Assets/Models/Other/Full Characters Poster.blend.meta
+Assets/Models/Other/Full Characters Poster.blend1.meta
+Assets/Models/Other/hatTeaser.blend.meta
+Assets/Models/Other/IconFace.blend.meta
+Assets/Models/Other/IconFace.blend1.meta
+Assets/Models/Other/Insane Banner.blend.meta
+Assets/Models/Other/Insane Banner.blend1.meta
+Assets/Models/Other/LargePosterCam.blend.meta
+Assets/Models/Other/LargePosterCam.blend1.meta
+Assets/Models/Other/ModelShowcase.blend.meta
+Assets/Models/Other/ModelShowcase.blend1.meta
+Assets/Models/Other/PlayerIcon.blend.meta
+Assets/Models/Other/PlayerIcon.blend1.meta
+Assets/Models/Other/PlayerRender.blend.meta
+Assets/Models/Other/PlayerRender.blend1.meta
+Assets/Models/Other/Popcorn.blend.meta
+Assets/Models/Other/Popcorn.blend1.meta
+Assets/Models/Other/reelUI.blend.meta
+Assets/Models/Other/reelUI.blend1.meta
+Assets/Models/Other/remsatered.blend.meta
+Assets/Models/Other/remsatered.blend1.meta
+Assets/Models/Other/SuitRender.blend.meta
+Assets/Models/Other/SuitRender.blend1.meta
+Assets/Models/Other/TB Poster.blend.meta
+Assets/Models/Other/TB Poster.blend1.meta
+Assets/Models/Other/TheBandSmooth.blend.meta
+Assets/Models/Other/TheBandSmooth.blend1.meta
+Assets/Models/Other/Ticket.blend.meta
+Assets/Models/Other/Ticket.blend1.meta
+Assets/Models/Other/TitleScreen.blend.meta
+Assets/Models/Other/TitleScreen.blend1.meta
+Assets/Models/Other/UI Icons.blend.meta
+Assets/Models/Other/UI Icons.blend1.meta
+Assets/Models/Other/untitled.blend.meta
+Assets/Models/Other/untitled.blend1.meta
+Assets/Models/Outside/Baking HDRs/~BROMIUM.meta
+Assets/Models/Outside/Baking HDRs/~BROMIUM/sunset.exr.meta
+Assets/Models/Player/Player.blend.meta
+Assets/Models/Player/Player.blend1.meta
+Assets/Models/Player/PlayerVRHand.blend.meta
+Assets/Models/Player/PlayerVRHand.blend1.meta
+Assets/Models/Props/Bonnie Guitar.blend.meta
+Assets/Models/Props/Bonnie Guitar.blend1.meta
+Assets/Models/Props/Building Blocks.blend.meta
+Assets/Models/Props/Building Blocks.blend1.meta
+Assets/Models/Props/Camera.blend.meta
+Assets/Models/Props/Camera.blend1.meta
+Assets/Models/Props/CameraIcon.blend.meta
+Assets/Models/Props/CameraIcon.blend1.meta
+Assets/Models/Props/Character Stages.blend.meta
+Assets/Models/Props/Character Stages.blend1.meta
+Assets/Models/Props/Cupcake.blend.meta
+Assets/Models/Props/Cupcake.blend1.meta
+Assets/Models/Props/Faz-Bingo.blend.meta
+Assets/Models/Props/Faz-Bingo.blend1.meta
+Assets/Models/Props/FNaF Mugs.blend.meta
+Assets/Models/Props/FNaF Mugs.blend1.meta
+Assets/Models/Props/FNWMH2Render.blend.meta
+Assets/Models/Props/FNWMH2Render.blend1.meta
+Assets/Models/Props/GreenScreen.blend.meta
+Assets/Models/Props/GreenScreen.blend1.meta
+Assets/Models/Props/light.blend.meta
+Assets/Models/Props/light.blend1.meta
+Assets/Models/Props/Mug Animation.blend.meta
+Assets/Models/Props/Mug Animation.blend1.meta
+Assets/Models/Props/Muggy.blend.meta
+Assets/Models/Props/Muggy.blend1.meta
+Assets/Models/Props/OngRender.blend.meta
+Assets/Models/Props/OngRender.blend1.meta
+Assets/Models/Props/Pizza RR.blend.meta
+Assets/Models/Props/Pizza RR.blend1.meta
+Assets/Models/Props/PoolRender.blend.meta
+Assets/Models/Props/PoolRender.blend1.meta
+Assets/Models/Props/PropCamera.blend.meta
+Assets/Models/Props/PropCamera.blend1.meta
+Assets/Models/Props/Speaker.blend.meta
+Assets/Models/Props/Speaker.blend1.meta
+Assets/Models/Props/VendingMachine.blend.meta
+Assets/Models/Props/VendingMachine.blend1.meta
+Assets/Models/SCB/SCB.blend.meta
+Assets/Models/SCB/SCB.blend1.meta
+Assets/Models/Show Selector/NRAE Show Selector.blend.meta
+Assets/Models/Show Selector/NRAE Show Selector.blend1.meta
+Assets/Models/Show Selector/PTT Show Selector.blend.meta
+Assets/Models/Show Selector/PTT Show Selector.blend1.meta
+Assets/Models/Show Selector/Show Selector.blend.meta
+Assets/Models/Show Selector/Show Selector.blend1.meta
+Assets/Models/Stage/Cymbal.blend.meta
+Assets/Models/Stage/Cymbal.blend1.meta
+Assets/Models/Stage/Outside.blend.meta
+Assets/Models/Stage/Outside.blend1.meta
+Assets/Models/Stage/Stage.blend.meta
+Assets/Models/Stage/Stage.blend1.meta
+Assets/Models/The Suit/The Suit.blend.meta
+Assets/Models/The Suit/The Suit.blend1.meta
+Assets/Models/Toy Bonnie/Toy Bonnie.blend.meta
+Assets/Models/Toy Bonnie/Toy Bonnie.blend1.meta
+Assets/Models/Toy Chica/Toy Chica.blend.meta
+Assets/Models/Toy Chica/Toy Chica.blend1.meta
+Assets/Models/Toy Foxy/Toy Foxy.blend.meta
+Assets/Models/Toy Foxy/Toy Foxy.blend1.meta
+Assets/Models/Toy Foxy/Toy Foxy.spp.meta
+Assets/Models/Toy Foxy/Toy Foxy_autosave_0.spp.meta
+Assets/Models/Toy Foxy/Toy Foxy_autosave_1.spp.meta
+Assets/Models/Toy Freddy/Toy Freddy.blend.meta
+Assets/Models/Toy Freddy/Toy Freddy.blend1.meta
+Assets/Pixel Play.meta
+Assets/Pixel Play/_Scenes.meta
+Assets/Pixel Play/_Scenes/_main.unity
+Assets/Pixel Play/_Scenes/_main.unity.meta
+Assets/Pixel Play/Documentation.meta
+Assets/Pixel Play/Documentation/Setup Guide 3.0.pdf
+Assets/Pixel Play/Documentation/Setup Guide 3.0.pdf.meta
+Assets/Pixel Play/Prefabs.meta
+Assets/Pixel Play/Prefabs/ArrowIndicator.prefab
+Assets/Pixel Play/Prefabs/ArrowIndicator.prefab.meta
+Assets/Pixel Play/Prefabs/BoxIndicator.prefab
+Assets/Pixel Play/Prefabs/BoxIndicator.prefab.meta
+Assets/Pixel Play/Scripts.meta
+Assets/Pixel Play/Scripts/ExtendedFlycam.cs
+Assets/Pixel Play/Scripts/ExtendedFlycam.cs.meta
+Assets/Pixel Play/Scripts/OffScreenIndicator.meta
+Assets/Pixel Play/Scripts/OffScreenIndicator/ArrowObjectPool.cs
+Assets/Pixel Play/Scripts/OffScreenIndicator/ArrowObjectPool.cs.meta
+Assets/Pixel Play/Scripts/OffScreenIndicator/BoxObjectPool.cs
+Assets/Pixel Play/Scripts/OffScreenIndicator/BoxObjectPool.cs.meta
+Assets/Pixel Play/Scripts/OffScreenIndicator/Indicator.cs
+Assets/Pixel Play/Scripts/OffScreenIndicator/Indicator.cs.meta
+Assets/Pixel Play/Scripts/OffScreenIndicator/OffScreenIndicator.cs
+Assets/Pixel Play/Scripts/OffScreenIndicator/OffScreenIndicator.cs.meta
+Assets/Pixel Play/Scripts/OffScreenIndicator/OffScreenIndicatorCore.cs
+Assets/Pixel Play/Scripts/OffScreenIndicator/OffScreenIndicatorCore.cs.meta
+Assets/Pixel Play/Scripts/OffScreenIndicator/Target.cs
+Assets/Pixel Play/Scripts/OffScreenIndicator/Target.cs.meta
+Assets/Pixel Play/Sprites.meta
+Assets/Pixel Play/Sprites/WhiteArrow.png
+Assets/Pixel Play/Sprites/WhiteArrow.png.meta
+Assets/Pixel Play/Sprites/WhiteBox.png
+Assets/Pixel Play/Sprites/WhiteBox.png.meta
+Assets/Scripts/VR/GameVersion.cs
+Assets/Settings/XR/Settings/Open XR Package Settings.asset
+Assets/Simulator/Models/Animatronics/3-Stage/Building/Sun.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Building/Sun.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Chuck/ROLFE FIXED ROLFE FIXED.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Chuck/ROLFE FIXED ROLFE FIXED.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Chuck/RolfeandEarl.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Chuck/RolfeandEarl.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/CU FLOWER LETS GOOO/THE FUCKING CU FLOWER.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/CU FLOWER LETS GOOO/THE FUCKING CU FLOWER.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/allthemasks.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/allthemasks.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/Mitzi.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/Mitzi.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/MITZIwtfbruh.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/MITZIwtfbruh.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Jasper/BeachBear.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Jasper/BeachBear.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Munch/FatzShowbiz.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Munch/FatzShowbiz.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pasqually/Dook.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pasqually/Dook.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/AllTheLooneyMasks.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/AllTheLooneyMasks.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/LooneyShowbiz.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/LooneyShowbiz.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/Pizzacam3DPrint.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/Pizzacam3DPrint.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Uncle Pappy/Klunk.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Uncle Pappy/Klunk.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/allthemasks.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/allthemasks.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/billybill.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/BillyBob.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/BillyBob.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/BillyShowbiz -.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/BillyShowbiz -.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/OtherRender.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/OtherRender.blend1.meta
+Assets/Simulator/Models/Animatronics/AAM/Chuck/Stage AAM.blend.meta
+Assets/Simulator/Models/Animatronics/AAM/Chuck/Stage AAM.blend1.meta
+Assets/Simulator/Models/Animatronics/AAM/Chuck/untitled.blend.meta
+Assets/Simulator/Models/Animatronics/AAM/Chuck/untitled.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Chuck/Cyber Chuck.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Chuck/Cyber Chuck.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Helen/Cyber Helen.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Helen/Cyber Helen.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Japser/Cyber Jasper.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Japser/Cyber Jasper.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Munch/Cyber Munch.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Munch/Cyber Munch.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Pasqually/Cyber Pasqually.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Pasqually/Cyber Pasqually.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Warblettes/Warblettes.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Warblettes/Warblettes.blend1.meta
+Assets/Simulator/Models/Animatronics/Kooser/Chuck/KooserChuck.blend.meta
+Assets/Simulator/Models/Animatronics/Kooser/Chuck/KooserChuck.blend1.meta
+Assets/Simulator/Models/Animatronics/Studio C/Chuck/Studio C Chuck.blend.meta
+Assets/Simulator/Models/Animatronics/Studio C/Chuck/Studio C Chuck.blend1.meta
+Assets/Simulator/Models/Other/aaaaaaaaa.blend.meta
+Assets/Simulator/Models/Other/aaaaaaaaa.blend1.meta
+Assets/Simulator/Models/Other/Allofthem.blend.meta
+Assets/Simulator/Models/Other/ExtraBanner.blend.meta
+Assets/Simulator/Models/Other/ExtraBanner.blend1.meta
+Assets/Simulator/Models/Other/Logo Reel to Real.blend.meta
+Assets/Simulator/Models/Other/Logo Reel to Real.blend1.meta
+Assets/Simulator/Models/Other/otherbanenr.blend.meta
+Assets/Simulator/Models/Other/TitleScreen.blend.meta
+Assets/Simulator/Models/Other/TitleScreen.blend1.meta
+Assets/Simulator/Models/Other/UI Icons.blend.meta
+Assets/Simulator/Models/Other/UI Icons.blend1.meta
+Assets/Simulator/Models/Props/light.blend.meta
+Assets/Simulator/Models/Props/light.blend1.meta
+Assets/Simulator/Models/Props/Pizza RR.blend.meta
+Assets/Simulator/Models/Props/Pizza RR.blend1.meta
+Assets/Simulator/Models/Props/PropCamera.blend1.meta
+Assets/Simulator/Models/Props/Records.blend1.meta
+Assets/Simulator/Models/Props/stageprops.blend1.meta
+Assets/Simulator/Models/Show Selector/NRAE Show Selector.blend1.meta
+Assets/Simulator/Models/Show Selector/PTT Show Selector.blend.meta
+Assets/Simulator/Models/Show Selector/PTT Show Selector.blend1.meta
+Assets/Simulator/Models/Show Selector/Show Selector.blend1.meta
+Assets/Simulator/Models/Stage/Cyber Flags.blend.meta
+Assets/Simulator/Models/Stage/Cyber Flags.blend1.meta
+Assets/Simulator/Models/Stage/Cymbal.blend.meta
+Assets/Simulator/Models/Stage/Cymbal.blend1.meta
+Assets/Simulator/Models/Stage/Outside.blend.meta
+Assets/Simulator/Models/Stage/Phase 2.blend.meta
+Assets/Simulator/Models/Stage/Phase 2.blend1.meta
+Assets/Simulator/Models/Stage/Stage.blend.meta
+Assets/Simulator/Models/Stage/Stage.blend1.meta
+Assets/Simulator/Models/Stage/Star Light.blend.meta
+Assets/Simulator/Models/Stage/Star Light.blend1.meta
+Assets/Simulator/UI/PTPLOGO.blend.meta
+Assets/Simulator/UI/PTPLOGO.blend1.meta
+Assets/StandaloneFileBrowser.meta
+Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs
+Assets/StandaloneFileBrowser/IStandaloneFileBrowser.cs.meta
+Assets/StandaloneFileBrowser/Plugins.meta
+Assets/StandaloneFileBrowser/Plugins/Linux.meta
+Assets/StandaloneFileBrowser/Plugins/Linux/x86_64.meta
+Assets/StandaloneFileBrowser/Plugins/Linux/x86_64/libStandaloneFileBrowser.so
+Assets/StandaloneFileBrowser/Plugins/Linux/x86_64/libStandaloneFileBrowser.so.meta
+Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll
+Assets/StandaloneFileBrowser/Plugins/Ookii.Dialogs.dll.meta
+Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle.meta
+Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents.meta
+Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist
+Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/Info.plist.meta
+Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/MacOS.meta
+Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/MacOS/StandaloneFileBrowser
+Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.bundle/Contents/MacOS/StandaloneFileBrowser.meta
+Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.jslib
+Assets/StandaloneFileBrowser/Plugins/StandaloneFileBrowser.jslib.meta
+Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll
+Assets/StandaloneFileBrowser/Plugins/System.Windows.Forms.dll.meta
+Assets/StandaloneFileBrowser/Sample.meta
+Assets/StandaloneFileBrowser/Sample/BasicSample.cs
+Assets/StandaloneFileBrowser/Sample/BasicSample.cs.meta
+Assets/StandaloneFileBrowser/Sample/BasicSampleScene.unity
+Assets/StandaloneFileBrowser/Sample/BasicSampleScene.unity.meta
+Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs
+Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileImage.cs.meta
+Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs
+Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileText.cs.meta
+Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs
+Assets/StandaloneFileBrowser/Sample/CanvasSampleOpenFileTextMultiple.cs.meta
+Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs
+Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileImage.cs.meta
+Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs
+Assets/StandaloneFileBrowser/Sample/CanvasSampleSaveFileText.cs.meta
+Assets/StandaloneFileBrowser/Sample/CanvasSampleScene.unity
+Assets/StandaloneFileBrowser/Sample/CanvasSampleScene.unity.meta
+Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs
+Assets/StandaloneFileBrowser/StandaloneFileBrowser.cs.meta
+Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs
+Assets/StandaloneFileBrowser/StandaloneFileBrowserEditor.cs.meta
+Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs
+Assets/StandaloneFileBrowser/StandaloneFileBrowserLinux.cs.meta
+Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs
+Assets/StandaloneFileBrowser/StandaloneFileBrowserMac.cs.meta
+Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs
+Assets/StandaloneFileBrowser/StandaloneFileBrowserWindows.cs.meta
+Assets/StreamingAssets/Flows/~BROMIUM.meta
+Assets/StreamingAssets/Flows/~BROMIUM/Default.cflow.meta
+Assets/StreamingAssets/Flows/~BROMIUM/Default.rflow.meta
+Assets/UI/Blends/GamejoltHeader.blend.meta
+Assets/UI/Blends/GamejoltHeader.blend1.meta
+Assets/UI/Blends/GamejoltTop.blend.meta
+Assets/UI/Blends/GamejoltTop.blend1.meta
+Assets/UI/Blends/LogoRoll.blend.meta
+Assets/UI/Blends/LogoRoll.blend1.meta
+Assets/UI/Blends/Show Selector UI.blend.meta
+Assets/UI/Blends/Show Selector UI.blend1.meta
+ProjectSettings/ShaderGraphSettings.asset
+Assets/Models/3D Model Haven/Television_01.blend.meta
+Assets/Models/3D Model Haven/Television_01.blend1.meta
+Assets/Models/AI/AI.blend.meta
+Assets/Models/AI/AI.blend1.meta
+Assets/Models/Balloon Boy/Balloon Boy.blend.meta
+Assets/Models/Balloon Boy/Balloon Boy.blend1.meta
+Assets/Models/Bonnie FNaF1/Binnie FNaF1.blend.meta
+Assets/Models/Chica FNaF1/Chica FNaF1.blend.meta
+Assets/Models/Foxy FNaF1/Foxy FNaF1.blend.meta
+Assets/Models/Freddy FNaF1/Freddy FNaF1.blend.meta
+Assets/Models/Freddy FNaF1/Freddy FNaF1.blend1.meta
+Assets/Models/Mr. Hugs/Mr. Hugs.blend.meta
+Assets/Models/Mr. Hugs/Mr. Hugs.blend1.meta
+Assets/Models/New Stage/New Stage.blend.meta
+Assets/Models/New Stage/New Stage.blend1.meta
+Assets/Models/Other/Allofthem.blend.meta
+Assets/Models/Other/Allofthem.blend1.meta
+Assets/Models/Other/anotherRender.blend.meta
+Assets/Models/Other/anotherRender.blend1.meta
+Assets/Models/Other/BingoScreen.blend.meta
+Assets/Models/Other/BingoScreen.blend1.meta
+Assets/Models/Other/Endo-01.blend.meta
+Assets/Models/Other/Endo-01.blend1.meta
+Assets/Models/Other/ffpplogo.blend.meta
+Assets/Models/Other/ffpplogo.blend1.meta
+Assets/Models/Other/FFRR Icon.blend.meta
+Assets/Models/Other/FFRR Icon.blend1.meta
+Assets/Models/Other/FoxyShip.blend.meta
+Assets/Models/Other/FoxyShip.blend1.meta
+Assets/Models/Other/Full Characters Poster.blend.meta
+Assets/Models/Other/Full Characters Poster.blend1.meta
+Assets/Models/Other/hatTeaser.blend.meta
+Assets/Models/Other/IconFace.blend.meta
+Assets/Models/Other/IconFace.blend1.meta
+Assets/Models/Other/Insane Banner.blend.meta
+Assets/Models/Other/Insane Banner.blend1.meta
+Assets/Models/Other/LargePosterCam.blend.meta
+Assets/Models/Other/LargePosterCam.blend1.meta
+Assets/Models/Other/ModelShowcase.blend.meta
+Assets/Models/Other/ModelShowcase.blend1.meta
+Assets/Models/Other/PlayerIcon.blend.meta
+Assets/Models/Other/PlayerIcon.blend1.meta
+Assets/Models/Other/PlayerRender.blend.meta
+Assets/Models/Other/PlayerRender.blend1.meta
+Assets/Models/Other/Popcorn.blend.meta
+Assets/Models/Other/Popcorn.blend1.meta
+Assets/Models/Other/reelUI.blend.meta
+Assets/Models/Other/reelUI.blend1.meta
+Assets/Models/Other/remsatered.blend.meta
+Assets/Models/Other/remsatered.blend1.meta
+Assets/Models/Other/SuitRender.blend.meta
+Assets/Models/Other/SuitRender.blend1.meta
+Assets/Models/Other/TB Poster.blend.meta
+Assets/Models/Other/TB Poster.blend1.meta
+Assets/Models/Other/TheBandSmooth.blend.meta
+Assets/Models/Other/TheBandSmooth.blend1.meta
+Assets/Models/Other/Ticket.blend.meta
+Assets/Models/Other/Ticket.blend1.meta
+Assets/Models/Other/TitleScreen.blend.meta
+Assets/Models/Other/TitleScreen.blend1.meta
+Assets/Models/Other/UI Icons.blend.meta
+Assets/Models/Other/UI Icons.blend1.meta
+Assets/Models/Other/untitled.blend.meta
+Assets/Models/Other/untitled.blend1.meta
+Assets/Models/Player/Player.blend.meta
+Assets/Models/Player/Player.blend1.meta
+Assets/Models/Player/PlayerVRHand.blend.meta
+Assets/Models/Player/PlayerVRHand.blend1.meta
+Assets/Models/Props/Bonnie Guitar.blend.meta
+Assets/Models/Props/Bonnie Guitar.blend1.meta
+Assets/Models/Props/Building Blocks.blend.meta
+Assets/Models/Props/Building Blocks.blend1.meta
+Assets/Models/Props/Camera.blend.meta
+Assets/Models/Props/Camera.blend1.meta
+Assets/Models/Props/CameraIcon.blend.meta
+Assets/Models/Props/CameraIcon.blend1.meta
+Assets/Models/Props/Character Stages.blend.meta
+Assets/Models/Props/Character Stages.blend1.meta
+Assets/Models/Props/Cupcake.blend.meta
+Assets/Models/Props/Cupcake.blend1.meta
+Assets/Models/Props/Faz-Bingo.blend.meta
+Assets/Models/Props/Faz-Bingo.blend1.meta
+Assets/Models/Props/FNaF Mugs.blend.meta
+Assets/Models/Props/FNaF Mugs.blend1.meta
+Assets/Models/Props/FNWMH2Render.blend.meta
+Assets/Models/Props/FNWMH2Render.blend1.meta
+Assets/Models/Props/GreenScreen.blend.meta
+Assets/Models/Props/GreenScreen.blend1.meta
+Assets/Models/Props/light.blend.meta
+Assets/Models/Props/light.blend1.meta
+Assets/Models/Props/Mug Animation.blend.meta
+Assets/Models/Props/Mug Animation.blend1.meta
+Assets/Models/Props/Muggy.blend.meta
+Assets/Models/Props/Muggy.blend1.meta
+Assets/Models/Props/OngRender.blend.meta
+Assets/Models/Props/OngRender.blend1.meta
+Assets/Models/Props/Pizza RR.blend.meta
+Assets/Models/Props/Pizza RR.blend1.meta
+Assets/Models/Props/PoolRender.blend.meta
+Assets/Models/Props/PoolRender.blend1.meta
+Assets/Models/Props/PropCamera.blend.meta
+Assets/Models/Props/PropCamera.blend1.meta
+Assets/Models/Props/Speaker.blend.meta
+Assets/Models/Props/Speaker.blend1.meta
+Assets/Models/Props/VendingMachine.blend.meta
+Assets/Models/Props/VendingMachine.blend1.meta
+Assets/Models/SCB/SCB.blend.meta
+Assets/Models/SCB/SCB.blend1.meta
+Assets/Models/Show Selector/NRAE Show Selector.blend.meta
+Assets/Models/Show Selector/NRAE Show Selector.blend1.meta
+Assets/Models/Show Selector/PTT Show Selector.blend.meta
+Assets/Models/Show Selector/PTT Show Selector.blend1.meta
+Assets/Models/Show Selector/Show Selector.blend.meta
+Assets/Models/Show Selector/Show Selector.blend1.meta
+Assets/Models/Stage/Cymbal.blend.meta
+Assets/Models/Stage/Cymbal.blend1.meta
+Assets/Models/Stage/Outside.blend.meta
+Assets/Models/Stage/Outside.blend1.meta
+Assets/Models/Stage/Stage.blend.meta
+Assets/Models/Stage/Stage.blend1.meta
+Assets/Models/The Suit/The Suit.blend.meta
+Assets/Models/The Suit/The Suit.blend1.meta
+Assets/Models/Toy Bonnie/Toy Bonnie.blend.meta
+Assets/Models/Toy Bonnie/Toy Bonnie.blend1.meta
+Assets/Models/Toy Chica/Toy Chica.blend.meta
+Assets/Models/Toy Chica/Toy Chica.blend1.meta
+Assets/Models/Toy Foxy/Toy Foxy.blend.meta
+Assets/Models/Toy Foxy/Toy Foxy.blend1.meta
+Assets/Models/Toy Foxy/Toy Foxy.spp.meta
+Assets/Models/Toy Foxy/Toy Foxy_autosave_0.spp.meta
+Assets/Models/Toy Foxy/Toy Foxy_autosave_1.spp.meta
+Assets/Models/Toy Freddy/Toy Freddy.blend.meta
+Assets/Models/Toy Freddy/Toy Freddy.blend1.meta
+Assets/Scripts/VR/GameVersion.cs
+Assets/Settings/XR/Settings/Open XR Package Settings.asset
+Assets/Simulator/Models/Animatronics/3-Stage/Building/Sun.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Building/Sun.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Chuck/ROLFE FIXED ROLFE FIXED.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Chuck/ROLFE FIXED ROLFE FIXED.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Chuck/RolfeandEarl.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Chuck/RolfeandEarl.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/CU FLOWER LETS GOOO/THE FUCKING CU FLOWER.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/CU FLOWER LETS GOOO/THE FUCKING CU FLOWER.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/allthemasks.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/allthemasks.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/Mitzi.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/Mitzi.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/MITZIwtfbruh.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Helen/MITZIwtfbruh.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Jasper/BeachBear.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Jasper/BeachBear.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Munch/FatzShowbiz.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Munch/FatzShowbiz.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pasqually/Dook.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pasqually/Dook.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/AllTheLooneyMasks.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/AllTheLooneyMasks.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/LooneyShowbiz.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/LooneyShowbiz.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/Pizzacam3DPrint.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Pizzacam/Pizzacam3DPrint.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Uncle Pappy/Klunk.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Uncle Pappy/Klunk.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/allthemasks.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/allthemasks.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/billybill.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/BillyBob.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/BillyBob.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/BillyShowbiz -.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/BillyShowbiz -.blend1.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/OtherRender.blend.meta
+Assets/Simulator/Models/Animatronics/3-Stage/Unused Mech/OtherRender.blend1.meta
+Assets/Simulator/Models/Animatronics/AAM/Chuck/Stage AAM.blend.meta
+Assets/Simulator/Models/Animatronics/AAM/Chuck/Stage AAM.blend1.meta
+Assets/Simulator/Models/Animatronics/AAM/Chuck/untitled.blend.meta
+Assets/Simulator/Models/Animatronics/AAM/Chuck/untitled.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Chuck/Cyber Chuck.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Chuck/Cyber Chuck.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Helen/Cyber Helen.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Helen/Cyber Helen.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Japser/Cyber Jasper.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Japser/Cyber Jasper.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Munch/Cyber Munch.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Munch/Cyber Munch.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Pasqually/Cyber Pasqually.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Pasqually/Cyber Pasqually.blend1.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Warblettes/Warblettes.blend.meta
+Assets/Simulator/Models/Animatronics/Cyberamics/Warblettes/Warblettes.blend1.meta
+Assets/Simulator/Models/Animatronics/Kooser/Chuck/KooserChuck.blend.meta
+Assets/Simulator/Models/Animatronics/Kooser/Chuck/KooserChuck.blend1.meta
+Assets/Simulator/Models/Animatronics/Studio C/Chuck/Studio C Chuck.blend.meta
+Assets/Simulator/Models/Animatronics/Studio C/Chuck/Studio C Chuck.blend1.meta
+Assets/Simulator/Models/Other/aaaaaaaaa.blend.meta
+Assets/Simulator/Models/Other/aaaaaaaaa.blend1.meta
+Assets/Simulator/Models/Other/Allofthem.blend.meta
+Assets/Simulator/Models/Other/ExtraBanner.blend.meta
+Assets/Simulator/Models/Other/ExtraBanner.blend1.meta
+Assets/Simulator/Models/Other/Logo Reel to Real.blend.meta
+Assets/Simulator/Models/Other/Logo Reel to Real.blend1.meta
+Assets/Simulator/Models/Other/otherbanenr.blend.meta
+Assets/Simulator/Models/Other/TitleScreen.blend.meta
+Assets/Simulator/Models/Other/TitleScreen.blend1.meta
+Assets/Simulator/Models/Other/UI Icons.blend.meta
+Assets/Simulator/Models/Other/UI Icons.blend1.meta
+Assets/Simulator/Models/Props/light.blend.meta
+Assets/Simulator/Models/Props/light.blend1.meta
+Assets/Simulator/Models/Props/Pizza RR.blend.meta
+Assets/Simulator/Models/Props/Pizza RR.blend1.meta
+Assets/Simulator/Models/Props/PropCamera.blend1.meta
+Assets/Simulator/Models/Props/Records.blend1.meta
+Assets/Simulator/Models/Props/stageprops.blend1.meta
+Assets/Simulator/Models/Show Selector/NRAE Show Selector.blend1.meta
+Assets/Simulator/Models/Show Selector/PTT Show Selector.blend.meta
+Assets/Simulator/Models/Show Selector/PTT Show Selector.blend1.meta
+Assets/Simulator/Models/Show Selector/Show Selector.blend1.meta
+Assets/Simulator/Models/Stage/Cyber Flags.blend.meta
+Assets/Simulator/Models/Stage/Cyber Flags.blend1.meta
+Assets/Simulator/Models/Stage/Cymbal.blend.meta
+Assets/Simulator/Models/Stage/Cymbal.blend1.meta
+Assets/Simulator/Models/Stage/Outside.blend.meta
+Assets/Simulator/Models/Stage/Phase 2.blend.meta
+Assets/Simulator/Models/Stage/Phase 2.blend1.meta
+Assets/Simulator/Models/Stage/Stage.blend.meta
+Assets/Simulator/Models/Stage/Stage.blend1.meta
+Assets/Simulator/Models/Stage/Star Light.blend.meta
+Assets/Simulator/Models/Stage/Star Light.blend1.meta
+Assets/Simulator/UI/PTPLOGO.blend.meta
+Assets/Simulator/UI/PTPLOGO.blend1.meta
+Assets/UI/Blends/GamejoltHeader.blend.meta
+Assets/UI/Blends/GamejoltHeader.blend1.meta
+Assets/UI/Blends/GamejoltTop.blend.meta
+Assets/UI/Blends/GamejoltTop.blend1.meta
+Assets/UI/Blends/LogoRoll.blend.meta
+Assets/UI/Blends/LogoRoll.blend1.meta
+Assets/UI/Blends/Show Selector UI.blend.meta
+Assets/UI/Blends/Show Selector UI.blend1.meta
+ProjectSettings/ShaderGraphSettings.asset
+*.meta
+*.cs
+*.cs
