@@ -64,6 +64,7 @@ public class Character_Valves : MonoBehaviour
         studioC,
         Mangle,
         Kooser,
+        Winchester,
     }
     public enum DualPressureState
     {
@@ -219,11 +220,11 @@ public class Character_Valves : MonoBehaviour
                         return false;
                     }
                 case StageHook.CRAE:
-                    mv = GameObject.Find("RFE");
+                    mv = GameObject.Find("3-Stage");
                     if (mv != null)
                     {
                         Debug.Log("Hook - " + name);
-                        ui = GameObject.Find("RFE").transform.Find("Show Selector").transform.Find("UI").GetComponent<UI_PlayRecord>();
+                        ui = GameObject.Find("3-Stage").transform.Find("Show Selector").transform.Find("UI").GetComponent<UI_PlayRecord>();
                         bitChart = mv.transform.Find("Mack Valves").GetComponent<Mack_Valves>();
                         mv.transform.Find("Show Selector").transform.Find("UI").GetComponent<UI_PlayRecord>().characterEvent.AddListener(CreateMovements);
                         ui.transform.root.Find("Live Editor").Find("UI Side Panel").GetComponent<UI_SidePanel>().FlowUpdater(this.gameObject);
@@ -287,6 +288,27 @@ public class Character_Valves : MonoBehaviour
                     {
                         Debug.Log("Hook - " + name);
                         ui = GameObject.Find("Kooser").transform.Find("Show Selector").transform.Find("UI").GetComponent<UI_PlayRecord>();
+                        bitChart = mv.transform.Find("Mack Valves").GetComponent<Mack_Valves>();
+                        mv.transform.Find("Show Selector").transform.Find("UI").GetComponent<UI_PlayRecord>().characterEvent.AddListener(CreateMovements);
+                        ui.transform.root.Find("Live Editor").Find("UI Side Panel").GetComponent<UI_SidePanel>().FlowUpdater(this.gameObject);
+                        return true;
+                    }
+                    else if (!numeratorLoop)
+                    {
+                        numeratorLoop = true;
+                        StartCoroutine(HookCheck());
+                        return false;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                    case StageHook.Winchester:
+                    mv = GameObject.Find("Winchester");
+                    if (mv != null)
+                    {
+                        Debug.Log("Hook - " + name);
+                        ui = GameObject.Find("Winchester").transform.Find("Show Selector").transform.Find("UI").GetComponent<UI_PlayRecord>();
                         bitChart = mv.transform.Find("Mack Valves").GetComponent<Mack_Valves>();
                         mv.transform.Find("Show Selector").transform.Find("UI").GetComponent<UI_PlayRecord>().characterEvent.AddListener(CreateMovements);
                         ui.transform.root.Find("Live Editor").Find("UI Side Panel").GetComponent<UI_SidePanel>().FlowUpdater(this.gameObject);

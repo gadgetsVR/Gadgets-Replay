@@ -21,6 +21,16 @@ public class GlobalController : MonoBehaviour
     public BuildBlockMats[] buildMaterials;
     public bool unlockAllPrizes = false;
 
+    public GameObject dayTime;
+    public GameObject nightTime;
+    public GameObject morningTime;
+    public GameObject sunsetTime;
+    public GameObject rainTime;
+
+    public Transform playerSpawnDefault;
+    public Transform playerSpawnEntrance;
+    public Transform playerSpawnStage;
+
     void OnEnable()
     {
         gamepad.Gamepad.Enable();
@@ -41,6 +51,33 @@ public class GlobalController : MonoBehaviour
         JoinPlayerOne();
         //Set Height
         player.transform.localScale = new Vector3(1.245614f, 1.245614f, 1.245614f);
+
+        //Set Time of Day
+        dayTime.SetActive(false);
+        nightTime.SetActive(false);
+        morningTime.SetActive(false);
+        sunsetTime.SetActive(false);
+        rainTime.SetActive(false);
+        switch (PlayerPrefs.GetInt("PrevTimeSelection"))
+        {
+            case 0:
+                dayTime.SetActive(true);
+                break;
+            case 1:
+                nightTime.SetActive(true);
+                break;
+            case 2:
+                morningTime.SetActive(true);
+                break;
+            case 3:
+                sunsetTime.SetActive(true);
+                break;
+            case 4:
+                rainTime.SetActive(true);
+                break;
+            default:
+                break;
+        }
     }
 
 
@@ -95,8 +132,23 @@ public class GlobalController : MonoBehaviour
             }
             else
             {
-                //PTP
-                playernew.transform.position = new Vector3(0, 1.078f, 0);
+                //Set Spawn
+                playernew.transform.position = new Vector3(0, 0.924f, 0);
+                switch (PlayerPrefs.GetInt("PrevSpawnSelection"))
+                {
+                    case 0:
+                        playernew.transform.position += playerSpawnDefault.position;
+                        break;
+                    case 1:
+                        playernew.transform.position += playerSpawnEntrance.position;
+                        break;
+                    case 2:
+                        playernew.transform.position += playerSpawnStage.position;
+                        break;
+                    default:
+                        break;
+                }
+
                 playernew.transform.rotation = Quaternion.Euler(new Vector3(0.0f, 0, 0.0f));
             }
             GameObject.Find("Player").transform.Find("PlayerModel").Find("MainBody").GetComponent<CharPrefaber>().playerNum = 1;
@@ -193,7 +245,7 @@ public class GlobalController : MonoBehaviour
         //Make sure multiple scenes don't get loaded
         for (int i = 0; i < SceneManager.sceneCount; i++)
         {
-            if(SceneManager.GetSceneAt(i).name == scene)
+            if (SceneManager.GetSceneAt(i).name == scene)
             {
                 return;
             }
@@ -284,25 +336,13 @@ public class GlobalController : MonoBehaviour
     public void ApplyCamSettings(GameObject player)
     {
         HDAdditionalCameraData camData = player.GetComponentInChildren<HDAdditionalCameraData>();
-        FrameSettings frameSettings = camData.renderingPathCustomFrameSettings;
-        FrameSettingsOverrideMask frameSettingsOverrideMask = camData.renderingPathCustomFrameSettingsOverrideMask;
-        camData.customRenderingSettings = true;
+
 
         if (PlayerPrefs.GetInt("Settings: Motion Blur") == 0)
         {
             MotionBlur testDoF;
             player.GetComponentInChildren<Volume>().profile.TryGet<MotionBlur>(out testDoF);
             testDoF.intensity.value = 0;
-        }
-        if (PlayerPrefs.GetInt("Settings: Auto Exposure") == 0)
-        {
-            Exposure testDoF;
-            player.GetComponentInChildren<Volume>().profile.TryGet<Exposure>(out testDoF);
-            testDoF.mode.value = ExposureMode.Fixed;
-            if (!(testDoF.limitMin.value == 1))
-            {
-                testDoF.fixedExposure.value = 0.71f;
-            }
         }
         ScreenSpaceReflection ssr = null;
         player.GetComponentInChildren<Volume>().profile.TryGet<ScreenSpaceReflection>(out ssr);
@@ -311,7 +351,6 @@ public class GlobalController : MonoBehaviour
             switch (PlayerPrefs.GetInt("Settings: SSR"))
             {
                 case 0:
-                    camData.renderingPathCustomFrameSettings.SetEnabled(FrameSettingsField.SSR, false);
                     ssr.enabled.value = false;
                     ssr.tracing.value = RayCastingMode.RayMarching;
                     break;
@@ -345,6 +384,7 @@ public class GlobalController : MonoBehaviour
                     ssr.rayMaxIterations = 140;
                     ssr.tracing.value = RayCastingMode.RayTracing;
                     ssr.mode.value = RayTracingMode.Performance;
+                    ssr.bounceCount.value = PlayerPrefs.GetInt("Settings: SSR Bounces") + 1;
                     break;
                 case 6:
                     ssr.enabled.value = true;
@@ -352,6 +392,7 @@ public class GlobalController : MonoBehaviour
                     ssr.rayMaxIterations = 140;
                     ssr.tracing.value = RayCastingMode.RayTracing;
                     ssr.mode.value = RayTracingMode.Quality;
+                    ssr.bounceCount.value = PlayerPrefs.GetInt("Settings: SSR Bounces") + 1;
                     break;
                 default:
                     break;
@@ -361,62 +402,70 @@ public class GlobalController : MonoBehaviour
         GlobalIllumination ssgi = null;
         player.GetComponentInChildren<Volume>().profile.TryGet<AmbientOcclusion>(out ssao);
         player.GetComponentInChildren<Volume>().profile.TryGet<GlobalIllumination>(out ssgi);
-        if (ssao != null && ssgi != null)
+
+        //GOTTA FIX
+        switch (PlayerPrefs.GetInt("Settings: SSAO"))
         {
-            switch (PlayerPrefs.GetInt("Settings: SSAO"))
-            {
-                case 0:
-                    camData.renderingPathCustomFrameSettings.SetEnabled(FrameSettingsField.SSAO, false);
-                    camData.renderingPathCustomFrameSettings.SetEnabled(FrameSettingsField.SSGI, false);
-                    ssgi.enable.value = false;
-                    ssao.active = false;
-                    ssgi.tracing.value = RayCastingMode.RayMarching;
-                    ssao.rayTracing.value = false;
-                    break;
-                case 1:
-                    camData.renderingPathCustomFrameSettings.SetEnabled(FrameSettingsField.SSGI, false);
-                    ssgi.enable.value = false;
-                    ssao.active = true;
-                    ssgi.tracing.value = RayCastingMode.RayMarching;
-                    ssao.rayTracing.value = false;
-                    break;
-                case 2:
-                    camData.renderingPathCustomFrameSettings.SetEnabled(FrameSettingsField.SSAO, false);
-                    ssgi.enable.value = true;
-                    ssao.active = false;
-                    ssgi.tracing.value = RayCastingMode.RayMarching;
-                    ssao.rayTracing.value = false;
-                    break;
-                case 3:
-                    camData.renderingPathCustomFrameSettings.SetEnabled(FrameSettingsField.SSGI, false);
-                    ssgi.enable.value = false;
-                    ssao.active = true;
-                    ssgi.tracing.value = RayCastingMode.RayMarching;
-                    ssao.rayTracing.value = true;
-                    break;
-                case 4:
-                    camData.renderingPathCustomFrameSettings.SetEnabled(FrameSettingsField.SSAO, false);
-                    ssgi.enable.value = true;
-                    ssao.active = false;
-                    ssgi.tracing.value = RayCastingMode.RayTracing;
-                    ssao.rayTracing.value = false;
-                    ssgi.mode.value = RayTracingMode.Performance;
-                    break;
-                case 5:
-                    camData.renderingPathCustomFrameSettings.SetEnabled(FrameSettingsField.SSAO, false);
-                    ssgi.enable.value = true;
-                    ssao.active = false;
-                    ssgi.tracing.value = RayCastingMode.RayTracing;
-                    ssgi.mode.value = RayTracingMode.Quality;
-                    break;
-                default:
-                    break;
-            }
+            case 0:
+                ssao.active = false;
+                break;
+            case 1:
+                ssao.active = true;
+                break;
+            default:
+                break;
         }
+        Debug.Log(PlayerPrefs.GetInt("Settings: GI"));
+        switch (PlayerPrefs.GetInt("Settings: GI"))
+        {
+            case 0:
+                ssgi.enable.value = false;
+                player.GetComponentInChildren<CustomPassVolume>().enabled = false;
+                break;
+            case 1:
+                ssgi.enable.value = true;
+                ssgi.tracing.value = RayCastingMode.RayMarching;
+                ssgi.denoise = false;
+                player.GetComponentInChildren<CustomPassVolume>().enabled = true;
+                break;
+            case 2:
+                ssgi.enable.value = true;
+                ssgi.tracing.value = RayCastingMode.RayTracing;
+                ssgi.mode.value = RayTracingMode.Performance;
+                ssgi.bounceCount.value = PlayerPrefs.GetInt("Settings: GI Bounces") + 1;
+                ssgi.denoise = true;
+                player.GetComponentInChildren<CustomPassVolume>().enabled = false;
+                break;
+            case 3:
+                ssgi.enable.value = true;
+                ssgi.tracing.value = RayCastingMode.RayTracing;
+                ssgi.mode.value = RayTracingMode.Quality;
+                ssgi.bounceCount.value = PlayerPrefs.GetInt("Settings: GI Bounces") + 1;
+                ssgi.denoise = true;
+                player.GetComponentInChildren<CustomPassVolume>().enabled = false;
+                break;
+            default:
+                break;
+        }
+
         //Res
         player.GetComponentInChildren<DynamicResCam>().currentScale = 100 - (PlayerPrefs.GetInt("Settings: Res Percent") * 5);
         player.GetComponentInChildren<DynamicResCam>().SetDynamicResolutionScale();
-
+        //7 Anti Aliasing
+        switch (PlayerPrefs.GetInt("Settings: AntiAlias"))
+        {
+            case 0:
+                camData.antialiasing = HDAdditionalCameraData.AntialiasingMode.None;
+                break;
+            case 1:
+                camData.antialiasing = HDAdditionalCameraData.AntialiasingMode.FastApproximateAntialiasing;
+                break;
+            case 2:
+                camData.antialiasing = HDAdditionalCameraData.AntialiasingMode.SubpixelMorphologicalAntiAliasing;
+                break;
+            default:
+                break;
+        }
         //DLSS
         Debug.Log("DLSS " + PlayerPrefs.GetInt("Settings: DLSS"));
         switch (PlayerPrefs.GetInt("Settings: DLSS"))
@@ -447,9 +496,6 @@ public class GlobalController : MonoBehaviour
             default:
                 break;
         }
-
-        //Applying the frame setting mask back to the camera
-        camData.renderingPathCustomFrameSettingsOverrideMask = frameSettingsOverrideMask;
     }
 
     public void AttemptAdvanceTutorial(string attemptString)
